@@ -18,7 +18,7 @@ jobs:
       with:
         go-version: '^1.15'
     - name: Build
-      run: go build -v ./../../test_setupApp.go
+      run: go build -v ./test_setupApp.go
     - name: Test
-      run: go test -v ./../../test_setupApp.go
+      run: go test -v ./test_setupApp.go
 
